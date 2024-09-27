@@ -11,8 +11,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -38,9 +36,9 @@ Users should be able to:
 
 ### Built with
 
-- [*] Semantic HTML5 markup
-- [*] CSS custom properties
-- [*] Flexbox
+- [x] Semantic HTML5 markup
+- [x] CSS custom properties
+- [x] Flexbox
 
 ### What I learned
 
