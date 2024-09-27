@@ -25,45 +25,49 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](assets/images/screenshot_desktop.png)
+
+![](assets/images/screenshot_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/TusharKaundal/Blog-Preview-Card)
+- Live Site URL: [Vercel](https://blog-preview-card-six-mauve.vercel.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- [*] Semantic HTML5 markup
+- [*] CSS custom properties
+- [*] Flexbox
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Best part was that i learned about how to put transition for box-shadow using hover property
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.card {
+  max-width: 24rem;
+  background-color: var(--white);
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--gray-950);
+  box-shadow: 8px 8px #000000;
+  transition: box-shadow 0.4s ease-in-out;
 }
-```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+.card:hover {
+  box-shadow: 16px 16px #000000;
+  cursor: pointer;
+}
+
+.card:hover .text-preset-1 {
+  color: var(--yellow);
+}
 ```
 
 ## Author
 
-- Website - [TusharKaundal](https://www.your-site.com)
+- Website - [TusharKaundal](https://blog-preview-card-six-mauve.vercel.app/)
 - Frontend Mentor - [@TusharKaundal](https://www.frontendmentor.io/profile/TusharKaundal)
