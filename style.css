@@ -112,7 +112,7 @@ footer {
     bottom: 5px;
 }
 
-@media (max-width: 375spx) {
+@media (max-width: 468px) {
     .card {
         max-width: 20.5rem;
     }
